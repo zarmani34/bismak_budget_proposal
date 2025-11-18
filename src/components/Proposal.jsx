@@ -335,7 +335,7 @@ export default function Proposal() {
               className="flex items-center gap-2 bg-white text-emerald-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all"
             >
               <Mail className="w-5 h-5" />
-              Email Us
+              Email Me
             </a>
             <a
               href="tel:+2348084607099"
