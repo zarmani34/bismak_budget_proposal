@@ -81,7 +81,7 @@ export default function ProposalDocument() {
       </div>
 
       {/* Content */}
-      <div className="max-w-6xl mx-auto px-4 py-8">{renderContent()}</div>
+      <div className="max-w-6xl mx-auto md:px-4 py-8">{renderContent()}</div>
 
       {/* Footer */}
       <div className="border-t border-gray-800 bg-gray-900/50 backdrop-blur-sm mt-12">

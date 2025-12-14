@@ -3,7 +3,7 @@ import { Briefcase, Clock, Layers, Shield } from "lucide-react";
 export default function ExecutiveSummary() {
   return (
     <div className="space-y-6">
-      <div className="bg-linear-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-500/30 rounded-2xl p-8">
+      <div className="bg-linear-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-500/30 rounded-2xl md:p-8 py-4 px-2">
         <div className="flex items-start gap-4 mb-6">
           <div className="w-16 h-16 bg-emerald-500 rounded-xl flex items-center justify-center shrink-0">
             <Briefcase className="w-8 h-8 text-white" />

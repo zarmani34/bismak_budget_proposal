@@ -13,7 +13,7 @@ import {
 export default function NextSteps() {
   return (
     <div className="space-y-6">
-      <div className="bg-linear-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-500/30 rounded-2xl p-8">
+      <div className="bg-linear-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-500/30 rounded-2xl md:p-8 p-4">
         <div className="flex items-start gap-4 mb-6">
           <div className="w-16 h-16 bg-pink-500 rounded-xl flex items-center justify-center shrink-0">
             <Rocket className="w-8 h-8 text-white" />
@@ -132,7 +132,7 @@ export default function NextSteps() {
             </div>
             <div className="text-left">
               <p className="font-semibold text-white">
-                Budget Proposal Document
+                Budget Proposal
               </p>
               <p className="text-sm text-white/80">
                 Detailed cost analysis: ₦8,650,000 • Timeline: 4-6 months

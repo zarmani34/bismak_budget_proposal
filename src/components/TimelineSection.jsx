@@ -4,7 +4,7 @@ import { TIMELINE } from "../utils/constants";
 export default function TimelineSection() {
   return (
     <div className="space-y-6">
-      <div className="bg-linear-to-br from-orange-500/10 to-red-500/10 border border-orange-500/30 rounded-2xl p-8">
+      <div className="bg-linear-to-br from-orange-500/10 to-red-500/10 border border-orange-500/30 rounded-2xl md:p-8 p-4">
         <div className="flex items-start gap-4 mb-6">
           <div className="w-16 h-16 bg-orange-500 rounded-xl flex items-center justify-center shrink-0">
             <Clock className="w-8 h-8 text-white" />
